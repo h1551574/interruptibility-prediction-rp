@@ -1,0 +1,16 @@
+Index: src/org/jhotdraw/samples/svg/SVGLiveConnectApplet.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/org/jhotdraw/samples/svg/SVGLiveConnectApplet.java b/src/org/jhotdraw/samples/svg/SVGLiveConnectApplet.java
+--- a/src/org/jhotdraw/samples/svg/SVGLiveConnectApplet.java	
++++ b/src/org/jhotdraw/samples/svg/SVGLiveConnectApplet.java	(date 1675337194707)
+@@ -17,6 +17,7 @@
+ import org.jhotdraw.draw.*;
+ import org.jhotdraw.draw.action.*;
+ import org.jhotdraw.util.*;
++import org.jhotdraw.draw.action.SwingWorker;
+ 
+ import java.awt.*;
+ import java.awt.geom.*;

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+
+    <!-- css sytling-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./bulma/bulma.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+
+
+    <title>Interruption!</title>
+  </head>
+  <body>
+    <audio autoplay>
+      <source src="./Sounds/notification-sound.ogg" type="audio/ogg">
+      <source src="./Sounds/notification-sound.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-1">
+          Interruption!
+        </h1>
+        <p class="subtitle is-3">
+          Please answer the following questions.
+        </p>
+        <button class="button" id="calculation-start-button">Start</button>
+
+          <form class="control" id="calculation-form">
+            <label class="label" for="calculation" id="calculation-label"></label>
+            <input class="input" type="number" id="calculation" name="calculation" required>
+            <br>
+            <button class="button" id="calculation-submit-button">Submit</button>
+          </form>
+      </div>
+
+      <div class="container" id="survey-div">
+        <h2 class="title is-2">Solution</h2>
+          <p class="subtitle is-5" id="calculation-result"></p>
+
+        <h2 class="title is-2">
+          Survey
+          <h3 class="title is-4">How <strong>disturbing</strong> did you perceive the interruption?</h3>
+          <p class="subtitle is-5">
+            (1 = not at all disturbing, 5 = very disturbing)
+          </p>
+          <div class="control">
+            <label class="radio">
+              <input type="radio" name="disturbance" value="1">
+              1
+            </label>
+            <label class="radio">
+              <input type="radio" name="disturbance" value="2">
+              2
+            </label>
+            <label class="radio">
+              <input type="radio" name="disturbance" value="3" checked>
+              3
+            </label>
+            <label class="radio">
+              <input type="radio" name="disturbance" value="4">
+              4
+            </label>
+            <label class="radio">
+              <input type="radio" name="disturbance"  value="5">
+              5
+            </label>
+          </div>
+
+
+          <h3 class="title is-4">How do you rate your <strong>interruptibility</strong> at the time of the notification?
+          </h3>
+          <p class="subtitle is-5">
+            (1 = very interruptible, 5 = very uninterruptible)
+          </p>
+          <div class="control">
+            <label class="radio">
+              <input type="radio" name="interruptibility" value="1">
+              1
+            </label>
+            <label class="radio">
+              <input type="radio" name="interruptibility" value="2">
+              2
+            </label>
+            <label class="radio">
+              <input type="radio" name="interruptibility" value="3" checked>
+              3
+            </label>
+            <label class="radio">
+              <input type="radio" name="interruptibility" value="4">
+              4
+            </label>
+            <label class="radio">
+              <input type="radio" name="interruptibility" value="5">
+              5
+            </label>
+          </div>
+          
+          
+          <div class="control">
+            <h3 class="title is-4">
+              How do you rate your <strong>mental workload</strong> at the time of the notification?
+            </h3>
+            <p class="subtitle is-5">
+              (1 = very low, 5 = very high)
+            </p>
+            <label class="radio">
+              <input type="radio" name="mental-workload" value="1">
+              1
+            </label>
+            <label class="radio">
+              <input type="radio" name="mental-workload" value="2">
+              2
+            </label>
+            <label class="radio">
+              <input type="radio" name="mental-workload" value="3" checked>
+              3
+            </label>
+            <label class="radio">
+              <input type="radio" name="mental-workload" value="4">
+              4
+            </label>
+            <label class="radio">
+              <input type="radio" name="mental-workload" value="5">
+              5
+            </label>
+          </div>
+          
+        </h2>
+        <button class="button" id="survey-submit-button">Submit</button>
+      </div>
+    </section>
+  </body>
+  <script src="./interruption.js"></script>
+</html>

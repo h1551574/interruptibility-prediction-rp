@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jhotdraw_pert">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/guide/examples/pert/jhotdraw_pert.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

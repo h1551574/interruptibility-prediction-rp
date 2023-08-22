@@ -1,0 +1,15 @@
+label.radio {
+    margin-bottom: 1.25rem;
+    transform: scale(1.5);
+    margin-left: -2rem;
+
+}
+
+input[type='radio'] { 
+    margin-right: 0.3rem;
+    margin-left: 2rem;
+}
+
+button {
+    margin-top: 1rem;
+}

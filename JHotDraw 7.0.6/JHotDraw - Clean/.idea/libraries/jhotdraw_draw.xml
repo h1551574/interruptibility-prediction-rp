@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jhotdraw_draw">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/guide/examples/draw/jhotdraw_draw.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

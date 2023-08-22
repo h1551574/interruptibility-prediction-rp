@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    
+    <!-- css sytling-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./bulma/bulma.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+
+
+    <title>Interruption App!</title>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">
+          Interruption App!
+        </h1>
+        <p class="subtitle">
+          Fill out <strong>Participant ID</strong> and press <strong>start experiment</strong> to random interruptions at intervalls of 1 to 11 minutes!
+        </p>
+        <div class="control" id="calculation-form">
+          <label class="label" for="participant-id">Participant ID</label>
+          <input class="input" type="text" id="participant-id" name="participant-id">
+          <br>
+          <label class="checkbox">
+            <input type="checkbox" id="demo-mode" name="participant-id">
+            Demo Mode (Interruption every 10 seconds)
+          </label>
+          <br>
+          <label class="checkbox">
+            <input type="checkbox" id="disable-headrest-warning" name="participant-id">
+            Disable Headrest Warning
+          </label>
+          <br>
+          <button class="button" id="start-button">Start Experiment</button>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="./renderer.js"></script>
+</html>

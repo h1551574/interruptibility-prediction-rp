@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    
+    <!-- css sytling-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./bulma/bulma.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+
+
+    <title>Please remember to keep your head placed against the headrest!</title>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">
+          Please remember to keep your head placed against the headrest!
+        </h1>
+          <button class="button" id="end-interruption-button">Continue</button>
+      </div>
+    </section>
+  </body>
+  <script src="./headrest.js"></script>
+</html>

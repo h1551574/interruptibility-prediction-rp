@@ -1,0 +1,31 @@
+Using "Analysis of Variance from Summary Data" at https://statpages.info/anova1sm.html
+
+5-State
+
+Significant:
+10s vs 120s: Diff=-8.0000, 95%CI=-14.1535 to -1.8465, p=0.0025
+20s vs 120s: Diff=-7.0000, 95%CI=-13.1535 to -0.8465, p=0.0141
+
+**CLOSE TO SIGNIFICANT**
+30s vs 120s: Diff=-6.0000, 95%CI=-12.1535 to 0.1535, p=0.0615
+
+
+Insignificant:
+10s vs 20s: Diff=-1.0000, 95%CI=-7.1535 to 5.1535, p=0.9991
+10s vs 30s: Diff=-2.0000, 95%CI=-8.1535 to 4.1535, p=0.9620
+10s vs 45s: Diff=-4.0000, 95%CI=-10.1535 to 2.1535, p=0.4667
+10s vs 60s: Diff=-5.0000, 95%CI=-11.1535 to 1.1535, p=0.1992
+10s vs 180s: Diff=-4.0000, 95%CI=-10.1535 to 2.1535, p=0.4667
+20s vs 30s: Diff=-1.0000, 95%CI=-7.1535 to 5.1535, p=0.9991
+20s vs 45s: Diff=-3.0000, 95%CI=-9.1535 to 3.1535, p=0.7792
+20s vs 60s: Diff=-4.0000, 95%CI=-10.1535 to 2.1535, p=0.4667
+20s vs 180s: Diff=-3.0000, 95%CI=-9.1535 to 3.1535, p=0.7792
+30s vs 45s: Diff=-2.0000, 95%CI=-8.1535 to 4.1535, p=0.9620
+30s vs 60s: Diff=-3.0000, 95%CI=-9.1535 to 3.1535, p=0.7792
+30s vs 180s: Diff=-2.0000, 95%CI=-8.1535 to 4.1535, p=0.9620
+45s vs 60s: Diff=-1.0000, 95%CI=-7.1535 to 5.1535, p=0.9991
+45s vs 120s: Diff=-4.0000, 95%CI=-10.1535 to 2.1535, p=0.4667
+45s vs 180s: Diff=0.0000, 95%CI=-6.1535 to 6.1535, p=1.0000
+60s vs 120s: Diff=-3.0000, 95%CI=-9.1535 to 3.1535, p=0.7792
+60s vs 180s: Diff=1.0000, 95%CI=-5.1535 to 7.1535, p=0.9991
+120s vs 180s: Diff=4.0000, 95%CI=-2.1535 to 10.1535, p=0.4667
