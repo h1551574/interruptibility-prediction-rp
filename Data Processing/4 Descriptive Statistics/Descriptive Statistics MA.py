@@ -10,7 +10,7 @@ import numpy as np
 
 #%%
 
-path = "Data/Interruption Data.csv"
+path = "Data/Interruption Data (ANONYMIZED)/Aggregated Interruption Data.csv"
 data = pd.read_csv(path)
 
 
