@@ -59,7 +59,7 @@ size_original_paper_field = [19,45,35,25,15]
 labels = ["1","2","3","4","5"]
 x = [1,2,3,4,5]
 
-fig, (ax1,ax2,ax3) = plt.subplots(1,3,figsize=(30,10),layout='constrained')
+fig, (ax1,ax2,ax3) = plt.subplots(1,3,figsize=(30,12))
 ax1.bar(interruptibility_data.keys(), size_original_paper_lab,
        color=['#ff4444', '#ff6666','#ff9999','#7777ff','#4444ff'])
 ax1.set_title("Original Paper [Lab]")
@@ -83,8 +83,8 @@ start, end = ax3.get_xlim()
 ax3.xaxis.set_ticks(np.arange(1, 6, 1))
 
 
-one = mlines.Line2D([], [], color='red', lw=8, label='1 = Very Interruptible')
-five = mlines.Line2D([], [], color='blue', lw=8, label='5 = Very Uninterruptible')
+one = mlines.Line2D([], [], color='red', lw=8, label='1 = "Very Interruptible"')
+five = mlines.Line2D([], [], color='blue', lw=8, label='5 = "Very Uninterruptible"')
 
 #fig.legend(['1 = Very Interruptible',"5 = Very Uninterruptible"],loc="outside upper center", 
 #           title='"How do you rate your interruptibility at the time of the notification?"',
@@ -93,7 +93,7 @@ fig.legend(handles=[one,five],
            loc="outside upper center",
            title='"How do you rate your interruptibility at the time of the notification?"',
 )
-
+plt.subplots_adjust(top=0.7)
 plt.show()
 
 
