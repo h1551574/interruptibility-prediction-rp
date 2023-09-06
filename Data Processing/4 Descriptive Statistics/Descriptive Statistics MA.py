@@ -20,7 +20,7 @@ plt.rc('font', **font)
 
 #%%
 
-path = "Data/Interruption Data (ANONYMIZED)/Aggregated Interruption Data.csv"
+path = "replication-package/Data/Interruption Data (ANONYMIZED)/Aggregated Interruption Data.csv"
 data = pd.read_csv(path)
 
 
