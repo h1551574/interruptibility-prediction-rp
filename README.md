@@ -1,3 +1,12 @@
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
+[cc0]: http://creativecommons.org/publicdomain/zero/1.0/
+[cc0-image]: http://i.creativecommons.org/p/zero/1.0/88x31.png
+
 # replication-package
 
 **Overview**
@@ -14,17 +23,19 @@ The replication package contains three types of files which may
 fall under copyright protection: 1) written documents (e.g. this paper, the
 experiment protocol, etc.), 2) source code (e.g. processing scripts), 3) data sets.
 
-All documents are licensed under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license which only requires
-downstream attribution and redistribution under the same conditions. We have chosen to include a Share-Alike clause so that modified versions in future replications publish their replication packages under similar conditions.
+All documents in this repository are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+This license requires downstream attribution and redistribution under the same conditions. We have chosen to include a Share-Alike clause so that modified versions in future replications publish their replication packages under similar conditions.
 
 All source code is licensed under the MIT license. As it is a ”Copyleft”
-license without any restrictions on the use of the software, it mainly serves to limit any warranty or liability connected to the use of the software. Additionally, the bundled in JHotDraw Project comes with an MIT license, since this license fits the former criterion, we chose to also use it for the rest of the
-replication package, so that replicators need to only deal with one type of
-license, keeping the package as simple as possible.
+license without any restrictions on the use of the software, it mainly serves to limit any warranty or liability connected to the use of the software. Additionally, the bundled in JHotDraw Project comes with an MIT license, since this license fits the former criterion, we chose to also use it for the rest of thereplication package, so that replicators need to only deal with one type of license, keeping the package as simple as possible.
 
-All data set are released under a Creative Commons public domain certi-
-fication [CC0](http://creativecommons.org/publicdomain/zero/1.0/) to remove the possibility of any residual copyright existing in
-the data set (i.e. in the “original selection and arrangement”)
+All data set are released under a Creative Commons public domain certification [CC0](http://creativecommons.org/publicdomain/zero/1.0/) to remove the possibility of any residual copyright existing in the data set (i.e. in the “original selection and arrangement”)
+
+[![CC0][cc0-image]][cc0]
+
 
 **Data Processing: Overview**
 Data Processing includes the following sub-directories:
