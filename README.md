@@ -23,7 +23,7 @@ The replication package contains three types of files which may
 fall under copyright protection: 1) written documents (e.g. this paper, the
 experiment protocol, etc.), 2) source code (e.g. processing scripts), 3) data sets.
 
-All documents in this repository are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+All documents and other media in this repository are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
 [![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 
