@@ -23,7 +23,7 @@ replication package, so that replicators need to only deal with one type of
 license, keeping the package as simple as possible.
 
 All data set are released under a Creative Commons public domain certi-
-fication (CC0) to remove the possibility of any residual copyright existing in
+fication [CC0](http://creativecommons.org/publicdomain/zero/1.0/) to remove the possibility of any residual copyright existing in
 the data set (i.e. in the “original selection and arrangement”)
 
 **Data Processing: Overview**
