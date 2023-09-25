@@ -14,7 +14,7 @@ The replication package contains three types of files which may
 fall under copyright protection: 1) written documents (e.g. this paper, the
 experiment protocol, etc.), 2) source code (e.g. processing scripts), 3) data sets.
 
-All documents are licensed under a CC BY-SA 4.0 license which only requires
+All documents are licensed under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license which only requires
 downstream attribution and redistribution under the same conditions. We have chosen to include a Share-Alike clause so that modified versions in future replications publish their replication packages under similar conditions.
 
 All source code is licensed under the MIT license. As it is a ”Copyleft”
