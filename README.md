@@ -14,9 +14,8 @@ The replication package contains three types of files which may
 fall under copyright protection: 1) written documents (e.g. this paper, the
 experiment protocol, etc.), 2) source code (e.g. processing scripts), 3) data sets.
 
-All documents are licensed under a CC-BY (4.0) license which only requires
-downstream attribution. We have chosen to include a Share-Alike clause so
-that modified versions in future replications publish their replication packages under similar conditions.
+All documents are licensed under a CC BY-SA 4.0 license which only requires
+downstream attribution and redistribution under the same conditions. We have chosen to include a Share-Alike clause so that modified versions in future replications publish their replication packages under similar conditions.
 
 All source code is licensed under the MIT license. As it is a ”Copyleft”
 license without any restrictions on the use of the software, it mainly serves to limit any warranty or liability connected to the use of the software. Additionally, the bundled in JHotDraw Project comes with an MIT license, since this license fits the former criterion, we chose to also use it for the rest of the
