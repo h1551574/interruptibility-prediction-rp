@@ -9,6 +9,24 @@ The replication package consists of six main directories:
   5. JHotDraw
   6. Result Analysis
 
+**License**
+The replication package contains three types of files which may
+fall under copyright protection: 1) written documents (e.g. this paper, the
+experiment protocol, etc.), 2) source code (e.g. processing scripts), 3) data sets.
+
+All documents are licensed under a CC-BY (4.0) license which only requires
+downstream attribution. We have chosen to include a Share-Alike clause so
+that modified versions in future replications publish their replication packages under similar conditions.
+
+All source code is licensed under the MIT license. As it is a ”Copyleft”
+license without any restrictions on the use of the software, it mainly serves to limit any warranty or liability connected to the use of the software. Additionally, the bundled in JHotDraw Project comes with an MIT license, since this license fits the former criterion, we chose to also use it for the rest of the
+replication package, so that replicators need to only deal with one type of
+license, keeping the package as simple as possible.
+
+All data set are released under a Creative Commons public domain certi-
+fication (CC0) to remove the possibility of any residual copyright existing in
+the data set (i.e. in the “original selection and arrangement”)
+
 **Data Processing: Overview**
 Data Processing includes the following sub-directories:
 
